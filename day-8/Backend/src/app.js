@@ -1,7 +1,9 @@
 const express=require("express");
 const noteModel=require("./models/notes.model.js")
+const cors=require("cors")
 const app=express();
 app.use(express.json())
+app.use(cors())
 app.post("/notes", async (req,res)=>{
      const{title,Description}=req.body;
      const note= await noteModel.create({
