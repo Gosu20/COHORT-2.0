@@ -1,0 +1,16 @@
+==> Authentication
+    ->Register
+    ->Login
+    ->logout(tiken blacklisting)
+    ->OTP based registration
+
+==> post
+   ->create
+   ->can see the feed
+   ->like posts
+   ->save post
+
+==>users
+   ->followers
+   ->following
+   
